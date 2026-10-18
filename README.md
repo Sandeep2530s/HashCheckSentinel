@@ -38,7 +38,7 @@ msbuild HashCheckSentinel.csproj /p:Configuration=Release
 
 ---
 
-## 🎓 Viva Demonstration Walkthrough (For External Examiners)
+## 🎓 Demonstration Walkthrough 
 
 When demonstrating to professors, toggle the top-right radio button to **🎓 Examiner Lab**. 
 A dedicated demonstration panel will appear with 4 pre-packaged scenarios:
