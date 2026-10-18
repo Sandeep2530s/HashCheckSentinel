@@ -1,0 +1,23 @@
+## Build and Output directories
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio & IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+## HashCheck Sentinel runtime data & baselines
+.sentinel-baseline/
+last_target.txt
+*.tmp
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
