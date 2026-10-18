@@ -130,14 +130,3 @@ Right-clicking any row in the forensic grid reveals professional incident respon
 
 ---
 
-## 🏆 Viva Defense Q&A Cheatsheet
-
-* **Q: Why didn't you use MD5 or SHA-1?**
-  * *A:* MD5 and SHA-1 suffer from demonstrated collision attacks (e.g., Google's SHAttered attack). SHA-256 complies with NIST FIPS 180-4 and provides 128-bit collision resistance.
-* **Q: How does this differ from Git?**
-  * *A:* Git is an intentional, manual source code version control system. Sentinel is an autonomous, continuous host-based security audit and ransomware detection system covering all system binaries, images, and documents with cryptographic seals.
-* **Q: What is the complexity of your diff algorithm?**
-  * *A:* We implement the Myers Diff algorithm based on Longest Common Subsequence (LCS), operating in $O(ND)$ time, where $N$ is the total line count and $D$ is the size of the minimal edit script.
-* **Q: How do you verify the baseline hasn't been altered?**
-  * *A:* Baseline manifests are protected with **HMAC-SHA256 (RFC 2104)** and a **Merkle Tree Root (RFC 6962)**. Any unauthorized modification to file records immediately breaks the HMAC signature and triggers a critical integrity alarm.
-
